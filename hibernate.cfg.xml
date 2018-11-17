@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+ <session-factory>
+  
+<property name="hbm2ddl.auto">create</property>
+<property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
+<property name="hibrnate.connection.driver_class">org.h2.driver</property>>
+<property name="hibernate.connection.url">jdbc:h2:tcp://localhost/~/h2 workspace</property>
+<property name="hibernate.connection.username">indu</property>
+<property name="hibernate.connection.password">indu</property>
+<property name="show sql">true</property>>
+<mapping class="com.Student_info"/>
+ </session-factory>
+ </hibernate-configuration>
